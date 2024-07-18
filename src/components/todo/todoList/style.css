@@ -1,0 +1,66 @@
+.todoContent{
+    width: 90%;
+    height: 485px;
+    overflow: auto;
+}
+.todoContent::-webkit-scrollbar {
+    width: 8px;
+    background-color: #f1f1f1;
+} 
+.todoContent::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;
+    border-radius: 20px;
+}
+
+.todoContentButton{
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    color: #3a3f46;
+    border-radius: 7px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 12px rgb(0 0 0 / 6%);
+    background: white;
+    margin-right: 20px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border: 1px solid #d7d1d8;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgb(0 0 0 / 25%);
+}
+.contentButton{
+    display: flex;
+    align-items: center;
+    margin-right: 7px;
+}
+
+.buttonDone{
+    text-decoration: line-through;
+    color: #afafaf;
+}
+
+@media screen and (max-width: 600px) {
+    .todoContent{
+        height: 100%;
+    }
+}
+
+
+
+
+
+ 
